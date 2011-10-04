@@ -10,10 +10,10 @@
 //
 // Bindings from: borinsky@github
 //
-// todo: Shift+Y	 : Creates a new YELLOW card and clears the text for you. 
-// todo: Shift+G	 : Creates a new GREEN card and clears the text for you.
-// todo: Shift+B	 : Creates a new BLUE and clears the text for you.
-// todo: Shift+W	 : Creates a new WHITE card and clears the text for you.
+// Shift+Y	 : Creates a new YELLOW card and clears the text for you. 
+// Shift+G	 : Creates a new GREEN card and clears the text for you.
+// Shift+B	 : Creates a new BLUE and clears the text for you.
+// Shift+W	 : Creates a new WHITE card and clears the text for you.
 //
 // todo: Shift+C     : Create a new CODER_CARD - CODERCARD is a Card for a CODER 
 //				       so you can see who is doing the Job
