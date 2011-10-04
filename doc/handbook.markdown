@@ -43,6 +43,15 @@ how to install and run on your own computer (linux/osx)
 - run redis `redis-server`
 - run scrumblr `node server.js 80` where "80" is the port you want it to run on. 
 
+
+how to install and run on your own debian 6.0
+----------------------------------------------
+- install redis-server from backports (apt-get install starts the server)
+- get node-0.4.9.tgz from nodejs.org
+- get npm com npmjs.org
+- install npm-packages
+- clone borinskys/scrumbler from github
+
 license
 -------
 
