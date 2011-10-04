@@ -65,7 +65,7 @@ app.post('/edit-column', function(req, res) {
 	res.send(req.body.value);
 });
 
-app.listen(process.argv[2] || 8124);
+app.listen(8124, "localhost");
 
 //I limit the number of potential transports because xhr was causing trouble
 //with frequent disconnects
