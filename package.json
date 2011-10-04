@@ -3,15 +3,16 @@
   "description": "Web-based simulation of a physical agile sprint board that supports real-time collaboration.",
   "version": "0.1.0",
   "repository": {
-    "url": "http://github.com/aliasaria/scrumblr"
+    "url": "http://github.com/borinsky/scrumblr"
   },
   "author": "Ali Asaria",
+  "author": "Josh Borinsky"
   "main": "server.js",
   "directories": {
     "lib": "lib/"
   },
   "engines": {
-    "node": "0.4.7"
+    "node": "0.4.9"
   },
   "dependencies": {
     "async":        "0.1.x",
