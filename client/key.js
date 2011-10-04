@@ -33,6 +33,48 @@ $(document).ready(function () {
             $("#card" + uniqueID + ' .content').dblclick();
         }
 
+        //Shift+Y: Creates a new YELLOW card and clears the text for you.
+        if (event.keyCode == '89' && event.shiftKey){
+            var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
+            uniqueID = Math.round(Math.random()*99999999);
+            createCard('card' + uniqueID, '', 58, 460, rotation, 1 );
+
+            //If using the keyboard shortcut, automatically focus on the textbox
+            $("#card" + uniqueID + ' .content').dblclick();
+        }
+
+        //Shift+G: Creates a new GREEN card and clears the text for you.
+        if (event.keyCode == '71' && event.shiftKey){
+            var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
+            uniqueID = Math.round(Math.random()*99999999);
+            createCard('card' + uniqueID, '', 58, 460, rotation, 2 );
+
+            //If using the keyboard shortcut, automatically focus on the textbox
+            $("#card" + uniqueID + ' .content').dblclick();
+        }
+
+        //Shift+B: Creates a new BLUE card and clears the text for you.
+        if (event.keyCode == '66' && event.shiftKey){
+            var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
+            uniqueID = Math.round(Math.random()*99999999);
+            createCard('card' + uniqueID, '', 58, 460, rotation, 3 );
+
+            //If using the keyboard shortcut, automatically focus on the textbox
+            $("#card" + uniqueID + ' .content').dblclick();
+        }
+
+
+        //Shift+W: Creates a new WHITE card and clears the text for you.
+        if (event.keyCode == '87' && event.shiftKey){
+            var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
+            uniqueID = Math.round(Math.random()*99999999);
+            createCard('card' + uniqueID, '', 58, 460, rotation, 4 );
+
+            //If using the keyboard shortcut, automatically focus on the textbox
+            $("#card" + uniqueID + ' .content').dblclick();
+        }
+
+
         //Shift+=: Creates a new column and clears the title for you.
         //Works in Chrome/Safari; Doesn't work in FF4 (all osx)
         else if (event.keyCode == 187 && event.shiftKey) {
