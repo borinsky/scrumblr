@@ -83,7 +83,7 @@ io.configure(function () {
     , 'jsonp-polling'
   ]);
 });
-io.sockets.on('localhost','connection', function (client) {
+io.sockets.on('connection', function (client) {
 	// new client is here!
 	//console.dir(client.request.headers);
 		//
