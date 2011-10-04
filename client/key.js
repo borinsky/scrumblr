@@ -37,7 +37,7 @@ $(document).ready(function () {
         if (event.keyCode == '89' && event.shiftKey){
             var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
             uniqueID = Math.round(Math.random()*99999999);
-            createCard('card' + uniqueID, '', 58, 460, rotation, 1 );
+            createCard('card' + uniqueID, '', 58, 460, rotation, 'yellow' );
 
             //If using the keyboard shortcut, automatically focus on the textbox
             $("#card" + uniqueID + ' .content').dblclick();
@@ -47,7 +47,7 @@ $(document).ready(function () {
         if (event.keyCode == '71' && event.shiftKey){
             var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
             uniqueID = Math.round(Math.random()*99999999);
-            createCard('card' + uniqueID, '', 58, 460, rotation, 2 );
+            createCard('card' + uniqueID, '', 58, 460, rotation, 'green' );
 
             //If using the keyboard shortcut, automatically focus on the textbox
             $("#card" + uniqueID + ' .content').dblclick();
@@ -57,7 +57,7 @@ $(document).ready(function () {
         if (event.keyCode == '66' && event.shiftKey){
             var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
             uniqueID = Math.round(Math.random()*99999999);
-            createCard('card' + uniqueID, '', 58, 460, rotation, 3 );
+            createCard('card' + uniqueID, '', 58, 460, rotation, 'blue' );
 
             //If using the keyboard shortcut, automatically focus on the textbox
             $("#card" + uniqueID + ' .content').dblclick();
@@ -68,7 +68,7 @@ $(document).ready(function () {
         if (event.keyCode == '87' && event.shiftKey){
             var rotation = Math.random() * 10 - 5; //add a bit of random rotation (+/- 10deg)
             uniqueID = Math.round(Math.random()*99999999);
-            createCard('card' + uniqueID, '', 58, 460, rotation, 4 );
+            createCard('card' + uniqueID, '', 58, 460, rotation, 'white' );
 
             //If using the keyboard shortcut, automatically focus on the textbox
             $("#card" + uniqueID + ' .content').dblclick();
