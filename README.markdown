@@ -1,24 +1,6 @@
 scrumblr
 ========
 
-Shortcuts:
-----------
- Bindings from: pvilchez@github
-
- Shift+ALT+N   : Creates a new card and clears the text for you.
- Shift+ALT+=   : Creates a new column and clears the title for you.
- Shift+ALT+-   : Deletes the newest column.
- Shift+ALT+A   : Changes the theme to 'bigcards'
- Shift+ALT+Z   : Changes the theme to 'smallcards'
-
- Bindings from: borinsky@github
-
- Shift+ALT+Y	 : Creates a new YELLOW card and clears the text for you. 
- Shift+ALT+G	 : Creates a new GREEN card and clears the text for you.
- Shift+ALT+B	 : Creates a new BLUE and clears the text for you.
- Shift+ALT+W	 : Creates a new WHITE card and clears the text for you.
-
-
 what is it
 ----------
 [scrumblr](http://scrumblr.ca) is a web-based simulation of a physical agile sprint board that supports real-time collaboration. it is built using node.js, websockets (using socket.io), CSS3, and jquery. i hope you like it.
@@ -33,20 +15,16 @@ And view a video here:
 
 - [Video Demo](http://www.youtube.com/watch?v=gAKxyOh1zPk)
 
-use scrumblr
-------------
+design philosophy
+-----------------
+my goal was to avoid buttons and ui (almost everything is edit in place or draggable). everything should be discoverable (no "help"). the look is meant to be as close as possible to [Well.ca's](http://well.ca) real sprint board. see picture below. many of the decisions were to make the app look and feel as much as possible like well.ca's real sprint board -- you may find this annoying but we find it kinda funny.
 
-if you'd like to use scrumblr go to [scrumblr.ca](http://scrumblr.ca). new boards are made simply by modifying the url to something unique. e.g. your team could use a shared board at: *http://scrumblr.ca/thisisoursecretboard23423242*
-
-alternatively, you can follow the instructions below to setup scrumblr yourself. it is very simple -- it just uses redis and node.js.
-
-if you are a developer, please fork and submit changes/fixes.
+![Wellca Board](http://scrumblr.ca/images/DSC_7093.jpg)
 
 browser support
 ---------------
 
 scrumblr works on up to date chrome and firefox browsers. enable websockets for optimal performance. tested mainly on chrome for osx. this was not designed for browser support. use chrome for this app.
-
 
 
 how to install and run on your own computer (linux/osx)
@@ -68,11 +46,44 @@ how to install and run on your own debian 6.0
 - install npm-packages
 - clone borinskys/scrumbler from github
 
-design philosophy
------------------
-my goal was to avoid buttons and ui (almost everything is edit in place or draggable). everything should be discoverable (no "help"). the look is meant to be as close as possible to [Well.ca's](http://well.ca) real sprint board. see picture below. many of the decisions were to make the app look and feel as much as possible like well.ca's real sprint board -- you may find this annoying but we find it kinda funny.
 
-![Wellca Board](http://scrumblr.ca/images/DSC_7093.jpg)
+Shortcuts:
+----------
+ Bindings from: pvilchez@github
+
+ Shift+ALT+N   : Creates a new card and clears the text for you.
+
+ Shift+ALT+=   : Creates a new column and clears the title for you.
+
+ Shift+ALT+-   : Deletes the newest column.
+
+ Shift+ALT+A   : Changes the theme to 'bigcards'
+
+ Shift+ALT+Z   : Changes the theme to 'smallcards'
+
+
+ Bindings from: borinsky@github
+
+ Shift+ALT+Y	 : Creates a new YELLOW card and clears the text for you. 
+
+ Shift+ALT+G	 : Creates a new GREEN card and clears the text for you.
+
+ Shift+ALT+B	 : Creates a new BLUE and clears the text for you.
+
+ Shift+ALT+W	 : Creates a new WHITE card and clears the text for you.
+
+
+
+use scrumblr
+------------
+
+if you'd like to use scrumblr go to [scrumblr.ca](http://scrumblr.ca). new boards are made simply by modifying the url to something unique. e.g. your team could use a shared board at: *http://scrumblr.ca/thisisoursecretboard23423242*
+
+alternatively, you can follow the instructions below to setup scrumblr yourself. it is very simple -- it just uses redis and node.js.
+
+if you are a developer, please fork and submit changes/fixes.
+
+
 
 license
 -------
@@ -97,3 +108,4 @@ author
 ------
 
 ali asaria - [well.ca](http://well.ca) - ali [at] well.ca
+josh borinsky [borinsky @ github](https://github.com/borinsky)
