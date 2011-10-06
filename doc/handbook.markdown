@@ -1,6 +1,24 @@
 scrumblr
 ========
 
+Shortcuts:
+----------
+ Bindings from: pvilchez@github
+
+ Shift+ALT+N   : Creates a new card and clears the text for you.
+ Shift+ALT+=   : Creates a new column and clears the title for you.
+ Shift+ALT+-   : Deletes the newest column.
+ Shift+ALT+A   : Changes the theme to 'bigcards'
+ Shift+ALT+Z   : Changes the theme to 'smallcards'
+
+ Bindings from: borinsky@github
+
+ Shift+ALT+Y	 : Creates a new YELLOW card and clears the text for you. 
+ Shift+ALT+G	 : Creates a new GREEN card and clears the text for you.
+ Shift+ALT+B	 : Creates a new BLUE and clears the text for you.
+ Shift+ALT+W	 : Creates a new WHITE card and clears the text for you.
+
+
 what is it
 ----------
 [scrumblr](http://scrumblr.ca) is a web-based simulation of a physical agile sprint board that supports real-time collaboration. it is built using node.js, websockets (using socket.io), CSS3, and jquery. we hope you like it.
